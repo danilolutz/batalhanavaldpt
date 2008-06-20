@@ -6,10 +6,8 @@ O jogo *Batalha Naval*, utiliza o conceito de Sockets para implementar a comunic
 
 == Detalhes ==
 
-
-
-
-
+O jogo consiste nas mesmas regras básicas, como no jogo de lápis e papel. São 5 (cinco) os tipos de barco que cada jogador possui. Após a conexão do de uma isntância com a outra os jogadores devem posicionar seus barcos da maneira que achar mais conveniente.
+Após o posicionamento dos barcos o jogo poderá ser inciado, o jogador que sem iniciará será o que utiliza a instância Servidor do programa.
 
 ----
 *Navegação:* < Anterior | << Primeira | [# Última >>] | [# Próxima >]
