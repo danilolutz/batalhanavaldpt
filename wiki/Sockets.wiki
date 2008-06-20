@@ -7,3 +7,6 @@ Sockets.
 
 
 == Detalhes ==
+
+----
+*Navegação:* [Home < Anterior] | [Home << Primeira] | [# Última >>] | [# Próxima >]
