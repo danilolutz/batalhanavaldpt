@@ -12,4 +12,4 @@ O jogo *Batalha Naval*, utiliza o conceito de Sockets para implementar a comunic
 
 
 ----
-*Navegação:* [# < Anterior] | [# << Primeira] | [# Última >>] | [# Próxima >]
+*Navegação:* < Anterior | << Primeira | [# Última >>] | [# Próxima >]
