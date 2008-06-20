@@ -5,3 +5,11 @@
 O jogo *Batalha Naval*, utiliza o conceito de Sockets para implementar a comunicação Client/Servidor, para que duas instâncias do _Software_ interajam entre si, permintindo que duas pessoas, em lugares distintos, conectem suas intâncias uma na outra, podendo assim jogar.
 
 == Detalhes ==
+
+
+
+
+
+
+----
+Navegação: [# < Anterior] | [# << Primeira] | [# Última >>] | [# Próxima >]
