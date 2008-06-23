@@ -11,4 +11,4 @@ O jogo consiste nas mesmas regras básicas, como no jogo de lápis e papel. São
 Após o posicionamento dos barcos o jogo poderá ser inciado, o jogador que sempre iniciará será o que utiliza a instância Servidor do programa.
 
 ----
-*Navegação:* < Anterior | << Primeira | [Sockets Última >>] | [Sockets Próxima >]
+*Navegação:* < Anterior | << Primeira | [Comentarios Última >>] | [Sockets Próxima >]
