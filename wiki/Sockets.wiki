@@ -9,4 +9,4 @@ Sockets.
 == Detalhes ==
 
 ----
-*Navegação:* [Home < Anterior] | [Home << Primeira] | [# Última >>] | [# Próxima >]
+*Navegação:* [Home < Anterior] | [Home << Primeira] | [Comentarios Última >>] | [Comentarios Próxima >]
