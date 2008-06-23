@@ -12,5 +12,3 @@ Após o posicionamento dos barcos o jogo poderá ser inciado, o jogador que semp
 
 ----
 *Navegação:* < Anterior | << Primeira | [Sockets Última >>] | [Sockets Próxima >]
-
-http://code.google.com/p/batalhanavaldpt/wiki/Sockets
