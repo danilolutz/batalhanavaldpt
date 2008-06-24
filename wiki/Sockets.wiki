@@ -10,10 +10,14 @@ _Sockets_ são de fácil compreensão, a explicação é direta e bem simplifica
 
 _Socket_, nada mais é que uma estrutura que permite a comunicação (interconexão) entre _softwares_ em um computador local ou remoto, para que estes conversem, compartilhem funções e transfiram dados entre si. O conceito de _Socket_ é o mesmo aplicado a um soquete comum (elétrico, telefônico etc), serve nada mais nada menos, para conectar elementos diferentes(dois _softwares_ distintos, por exemplo).
 
+
+
+
+
+
+
+
+
+
 ----
 *Navegação:* [Home < Anterior] | [Home << Primeira] | [Comentarios Última >>] | [Comentarios Próxima >]
-
-
-
-
- .
