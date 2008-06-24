@@ -3,10 +3,12 @@
 
 == Introdução ==
 
-Sockets.
+Sockets são de fácil compreensão, a explicação é direta e bem simplificada para que leigos no assunto comecem a se identificar e assimiliar melhor o conceito.
 
 
 == Detalhes ==
+
+Socket, nada mais é que uma estrutura que permite a comunicação (interconexão) entre softwares em um computador local ou remoto, para que estes conversem e compartilhem funções entre si. O conceito de sockets é o mesmo aplicado a um soquete comum (elétrico, telefônico etc), servem nada mais nada menos, para conectar elementos diferentes.
 
 ----
 *Navegação:* [Home < Anterior] | [Home << Primeira] | [Comentarios Última >>] | [Comentarios Próxima >]
