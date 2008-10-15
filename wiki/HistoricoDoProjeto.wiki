@@ -2,9 +2,14 @@
 
 = Batalha Naval - _Histórico do Projeto_ =
 
+----
+
 == 15/10/2008 _Início da Versão 2.0.0_ ==
 
 Declarado o início da versão 2.0.0 do Batalha Naval
+
+
+----
 
 
 == 31/05/2008 - _Versão 1.0.0_ ==
