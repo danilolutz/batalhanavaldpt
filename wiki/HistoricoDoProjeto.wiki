@@ -26,4 +26,4 @@ Jogo de *Batalha Naval*, desenvolvido em _JAVA_, com conexões através de _sock
 
 
 ----
-*Navegação:* [Socktes < Anterior] | [Home << Primeira] | [Comentarios Última >>] | [Comentarios Próxima >]
+*Navegação:* [Sockets < Anterior] | [Home << Primeira] | [Comentarios Última >>] | [Comentarios Próxima >]
