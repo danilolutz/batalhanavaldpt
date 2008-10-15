@@ -1,13 +1,23 @@
 #summary Está página mostra simplesmente a história de vida do projeto Batalha Naval.
 
-= Introduction =
+= Batalha Naval - _Histórico do Projeto_ =
 
-Add your content here.
+== 31/05/2008 ==
+
+_Sockets_ são de fácil compreensão, a explicação é direta e bem simplificada para que leigos no assunto comecem a se identificar e assimiliar melhor o conceito.
 
 
-= Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+
+
+
+
+
+
+
+
+
+
+
+----
+*Navegação:* [Home < Anterior] | [Home << Primeira] | [Comentarios Última >>] | [Comentarios Próxima >]
