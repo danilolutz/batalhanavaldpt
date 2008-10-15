@@ -2,7 +2,12 @@
 
 = Batalha Naval - _Histórico do Projeto_ =
 
-== 31/05/2008 _Versão 1.0.0_ ==
+== 15/10/2008 _Início da Versão 2.0.0_ ==
+
+Declarado o início da versão 2.0.0 do Batalha Naval
+
+
+== 31/05/2008 - _Versão 1.0.0_ ==
 
 
 Versão final (e entregue) do trabalho de Sistema Distribuídos, versão do jogo 1.0.0.
@@ -21,4 +26,4 @@ Jogo de *Batalha Naval*, desenvolvido em _JAVA_, com conexões através de _sock
 
 
 ----
-*Navegação:* [Home < Anterior] | [Home << Primeira] | [Comentarios Última >>] | [Comentarios Próxima >]
+*Navegação:* [Socktes < Anterior] | [Home << Primeira] | [Comentarios Última >>] | [Comentarios Próxima >]
