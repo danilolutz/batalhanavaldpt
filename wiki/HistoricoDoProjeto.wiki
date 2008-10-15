@@ -12,7 +12,7 @@ Declarado o início da versão 2.0.0 do Batalha Naval
 ----
 
 
-== 31/05/2008 - _Versão 1.0.0_ ==
+== 24/06/2008 - _Versão 1.0.0_ ==
 
 
 Versão final (e entregue) do trabalho de Sistema Distribuídos, versão do jogo 1.0.0.
