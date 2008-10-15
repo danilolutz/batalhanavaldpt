@@ -1,4 +1,4 @@
-#summary Não deixe de inserir seus comentários.
+#summary Não deixe de enviar seus comentários.
 
 == Comentários ==
 
