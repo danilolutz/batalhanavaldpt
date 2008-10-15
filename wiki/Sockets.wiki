@@ -20,4 +20,4 @@ _Socket_, nada mais é que uma estrutura que permite a comunicação (interconex
 
 
 ----
-*Navegação:* [Home < Anterior] | [Home << Primeira] | [Comentarios Última >>] | [Comentarios Próxima >]
+*Navegação:* [Home < Anterior] | [Home << Primeira] | [Comentarios Última >>] | [HistoricoDoProjeto Próxima >]
