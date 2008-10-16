@@ -1,3 +1,10 @@
+/**
+ * @(#)StatusBar.java
+ *
+ *
+ * @Danilo Lutz 
+ * @version 1.00 14/10/2008
+ */
 package gui;
 
 import javax.swing.BorderFactory;
@@ -8,13 +15,14 @@ public class StatusBar extends JLabel {
   
     public StatusBar() {
         super();
-        super.setPreferredSize(new Dimension(100, 16));
+        super.setPreferredSize(new Dimension(100, 20));
 
-	setBorder(BorderFactory.createEtchedBorder());
-        setMessage("Pronto");
+		this.setBorder(BorderFactory.createEtchedBorder());
+        this.setMessage("");
     }
     
-    public void setMessage(String messagem) {
-        setText(" "+messagem);
+    public void setMessage(String message) {
+    	this.setText("");
+        this.setText(" " + message);
     }        
 }
