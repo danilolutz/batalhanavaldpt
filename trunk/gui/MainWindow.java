@@ -1,10 +1,25 @@
 /**
  * @(#)MainWindow.java
- *
- *
- * @Danilo Lutz
- * @version 1.00 14/10/2008
- */
+ * @author Danilo Lutz
+ * @version 1.00 
+ * @date 17/10/2008
+ **/
+/*
+    This file is part of Batalha Naval.
+
+    Batalha Naval is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Batalha Naval is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Batalha Naval.  If not, see <http://www.gnu.org/licenses/>.
+*/
 package gui;
  
 import javax.swing.JFrame;
@@ -23,14 +38,15 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.FocusListener;
 import java.awt.event.FocusEvent;
-import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.event.MouseAdapter;
 
 public class MainWindow extends JFrame {
 	private JPanel jpMainContainer;
-	//private String imgPath = new String("C:/Documents and Settings/Danilo/Meus documentos/JCreator Pro/MyProjects/Batalha Naval/src/gui/images");
-	private String imgPath = new String("E:/Batalha Naval/src/gui/images");
+	private String imgPath = new String("gui/images");
 	private StatusBar statusBar;
+	
+	
     public MainWindow() {
     	CreateMainWindow();
     	CreateMenu();
@@ -65,8 +81,8 @@ public class MainWindow extends JFrame {
     	
     	JMenuItem mnuCreateGame = new JMenuItem("Criar jogo", imgCreateGame);
     	JMenuItem mnuJoinGame = new JMenuItem("Entrar no jogo", imgJoinGame);
-    	
     	JMenuItem mnuCancelGame = new JMenuItem("Abandonar jogo", imgCancelGame);
+		mnuCancelGame.setEnabled(false); //Desabilita o menu enquanto, não for identificada uma conexão.
     	JMenuItem mnuExit = new JMenuItem("Sair", imgExit);
     	
     	JMenuItem mnuHelp = new JMenuItem("Ajuda", imgHelp);
@@ -87,17 +103,13 @@ public class MainWindow extends JFrame {
     	mnuGeneral.add(mnuAbout);
     	    	    	
     	//Menus Actions Listeners.
-    	mnuCreateGame.addMouseListener(new MouseAdapter() {	
-    		public void mouseMove(MouseEvent evt, int x, int y) {
-    			statusBar.setText("OI");
-    		}
-    		
-    		public void mouseExit(MouseEvent evt, int x, int y) {
-    			statusBar.setText("");
-    		}	
-    	});
-    	
-    	
+		mnuCreateGame.addMouseListener(new MenuStatusAction("Cria um novo jogo.", statusBar));
+		mnuJoinGame.addMouseListener(new MenuStatusAction("Conecta em um jogo existente.", statusBar));
+		mnuCancelGame.addMouseListener(new MenuStatusAction("Desconecta do jogo atual.", statusBar));
+		mnuExit.addMouseListener(new MenuStatusAction("Sair do jogo retornando ao sistema operacional.", statusBar));
+		mnuHelp.addMouseListener(new MenuStatusAction("Exibe o conteúdo da ajuda.", statusBar));
+		mnuSubAbout.addMouseListener(new MenuStatusAction("Exibe informações sobre versão, autores e outros.", statusBar));
+		
 		mnuExit.addActionListener(new ActionListener() {  
 				public void actionPerformed(ActionEvent evt) {  
 					System.exit(0);
