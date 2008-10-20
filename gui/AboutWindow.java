@@ -20,10 +20,9 @@
     You should have received a copy of the GNU General Public License
     along with Batalha Naval.  If not, see <http://www.gnu.org/licenses/>.
 */
-  
 package gui;
 
-import javax.swing.JPanel;
+ import javax.swing.JPanel;
 import javax.swing.JDialog;
 import javax.swing.JButton;
 import javax.swing.JLabel;
