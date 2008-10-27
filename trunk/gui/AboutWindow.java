@@ -22,7 +22,7 @@
 */
 package gui;
 
- import javax.swing.JPanel;
+import javax.swing.JPanel;
 import javax.swing.JDialog;
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -35,6 +35,7 @@ import java.awt.event.ActionListener;
 import java.awt.Image;
 import java.awt.Font;
 import java.awt.BorderLayout;
+import java.awt.GridLayout;
 
 import java.util.Calendar;
 
@@ -58,18 +59,22 @@ public class AboutWindow extends JDialog {
 		JLabel jlImage = new JLabel(new ImageIcon(imgPath + "/about.jpg"));
 		pnlImage.add(jlImage);
 		
-		JPanel pnlTexts = new JPanel();
-		JLabel jlAbout = new JLabel("<html><h2>Sobre o " + Info.getTitle() + " " + Info.getVersion() + "</h2><br><h3>Créditos</h3> " + Info.getCredits() + "<br><br> Descrição do Projeto.<br><br>" + calYear.get(Calendar.YEAR) + "©, Versão " + Info.getVersion() + "</html>");	
+		JPanel pnlTexts = new JPanel(new GridLayout(3, 2));
+		
+		JLabel jlAbout = new JLabel("<html><br><br><br><h2>Sobre o " + Info.getTitle() + " " + Info.getVersion() + "</h2><br><h3>Créditos</h3> " + Info.getCredits() + "<br><br>Consiste apenas em um jogo de batalha naval de dois jogadores, implementando os conceitos de sockets da linguagem JAVA.<br><br>" + calYear.get(Calendar.YEAR) + "©, Versão " + Info.getVersion() + "<br><br><br><br><br><br><br><br></html>");	
 		pnlTexts.add(jlAbout);
 		JTextArea txtLicense = new JTextArea("This program is free software; you can redistribute it and/or \nmodify it under the terms of the GNU General Public License as published by \nthe Free Software Foundation; either version 3 of the License, or \n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program. If not, see <http://www.gnu.org/licenses/>.\n\n\n\n", 6, 45);
         txtLicense.setFont(new Font("Tahoma", Font.PLAIN, 10));
-        txtLicense.setLineWrap(true);   		
+        txtLicense.setLineWrap(true);
+		txtLicense.setEditable (false);
 		JScrollPane scrollPane = new JScrollPane(txtLicense);
 		pnlTexts.add(scrollPane);
 		
-		JPanel pnlButton = new JPanel();
-		JButton btnOk = new JButton("   OK   ");
-		pnlButton.add(btnOk);
+		JPanel pnlBtn = new JPanel();
+		JButton btnOk = new JButton("Fechar");
+		pnlBtn.add(btnOk);
+		
+		pnlTexts.add(pnlBtn);
 		
 		btnOk.addActionListener(new ActionListener() {  
 				public void actionPerformed(ActionEvent evt) {  
@@ -79,7 +84,6 @@ public class AboutWindow extends JDialog {
 		
 		this.add(pnlImage, BorderLayout.WEST);
 		this.add(pnlTexts, BorderLayout.CENTER);
-		this.add(pnlButton, BorderLayout.SOUTH);
 		
 		this.setVisible(true);
     }
