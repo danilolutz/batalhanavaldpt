@@ -34,7 +34,7 @@ public class Info {
     }
     
     public static String getCredits() {
-    	return "Danilo Lutz, Fernando dos Santos, Gilson Polito, Henry Charriere, Tiago Zaccaro";
+    	return "Danilo Lutz, Thomas Kapp, Marcos Penteado, Fernando dos Santos, Gilson Polito, Henry Charriere, Tiago Zaccaro";
     }
     
     public static String getCompany() {
