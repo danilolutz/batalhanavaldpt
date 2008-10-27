@@ -115,6 +115,12 @@ public class MainWindow extends JFrame {
 					System.exit(0);
 			}  
 		}); 
+
+    	mnuCreateGame.addActionListener(new ActionListener() {  
+				public void actionPerformed(ActionEvent evt) {  
+					new CreateGameWindow();
+			}  
+		});
     	
     	mnuSubAbout.addActionListener(new ActionListener() {  
 				public void actionPerformed(ActionEvent evt) {  

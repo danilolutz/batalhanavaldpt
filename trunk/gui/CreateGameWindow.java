@@ -21,11 +21,23 @@
     along with Batalha Naval.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+package gui;
 
-public class CreateWindow {
+import javax.swing.JPanel;
+import javax.swing.JDialog;
 
-    public CreateWindow() {
+public class CreateGameWindow extends JDialog {
+    public CreateGameWindow() {
+		CreateWindow();
     }
-    
+	
+	private void CreateWindow() {
+		this.setTitle("Criar Jogo");
+		this.setSize(729, 500);
+		this.setResizable(false);
+		this.setLocationRelativeTo(null);
+		this.setModal(true);
+		this.setVisible(true);
+	}
     
 }
